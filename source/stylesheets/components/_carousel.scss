@@ -1,8 +1,29 @@
 #myCarousel {
-  height: 100vh;
   img {
-    max-height: 100vh;
+    max-height: calc(100vh - 70px);
     width: 100%;
     object-fit: cover; /*magic*/
   }
+}
+
+.carousel-caption {
+  background-color: $brown;
+  border-radius: 4px;
+  opacity: 0.85;
+}
+
+.carousel-caption p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.carousel-caption h3 {
+  font-weight: 500;
+  font-family: $headers-font;
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+.carousel-caption a {
+  margin-bottom: 10px;
 }

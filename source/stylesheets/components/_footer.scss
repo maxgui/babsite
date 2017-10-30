@@ -1,5 +1,5 @@
 .footer {
-  background: #F4F4F4;
+  background: $light-gray;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,17 +12,17 @@
   align-items: center;
 }
 .footer-links a {
-  color: #F08CAE;
+  color: $pink;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
 }
 .footer-links a:hover {
-  color: #F08CAE;
+  color: $pink;
   opacity: 0.7;
 }
 .footer .fa-heart {
-  color: #F08CAE;
+  color: $pink;
 }
 
 .footer-copyright {
