@@ -24,6 +24,27 @@
   margin-top: 0px;
 }
 
-.carousel-caption a {
-  margin-bottom: 10px;
+// .carousel-caption a {
+//   margin-bottom: 10px;
+//   opacity: 1 !important;
+// }
+
+.btn-gallery {
+  border: 1px solid #ed759e;
+  padding: 7px 10px;
+  border-radius: 4px;
+  background-color: none;
+  color: $white;
+  margin-bottom: 15px;
+}
+
+.carousel-caption a:hover {
+  text-decoration: none;
+  background-color: $pink;
+  color: $white;
+}
+
+.gallery-link{
+  margin-bottom: 15px;
+  margin-top: 15px
 }
