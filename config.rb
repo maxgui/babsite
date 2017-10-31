@@ -20,3 +20,8 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+activate :directory_indexes
+activate :minify_html
+
+# set :index_file, "index.html"
