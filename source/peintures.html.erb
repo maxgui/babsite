@@ -100,8 +100,38 @@
       </div>
     </div>
 
+    <div class="col-xs-12 col col-sm-6 col-md-4">
+      <!-- insert <div class="card"> -->
+        <div class="card"  data-toggle="modal" data-target="#EtretatModal">
+          <div class="card-category">Acrylique sur toile</div>
+          <div class="card-description">
+            <h2>Grand Palais Paris</h2>
+            <p>100x100</p>
+          </div>
+          <div class="img-preview">
+            <%= image_tag "images/Tableaux_HD/Tableau-Falaises-Etretat_Elisabeth-Guillemain.png"%>
+          </div>
+          <a class="card-link text-center" href="#" ><p class="zoom-img">Agrandir l'image</p></a>
+        </div>
+      <div class="modal fade" id="EtretatModal" tabindex="-1" role="dialog" aria-labelledby="EtretatModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="EtretatModalLabel">Grand Palais Paris</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <%= image_tag "images/Tableaux_HD/Tableau-Falaises-Etretat_Elisabeth-Guillemain.png", class: "modal-image" %>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
-
-<!-- Modal -->
-

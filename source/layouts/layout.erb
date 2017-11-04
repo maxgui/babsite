@@ -14,10 +14,9 @@
   <body>
       <div class="navbar-wagon">
       <!-- Logo -->
-        <!-- <a href="/" class="navbar-wagon-brand">
-          <img src="images/logo.png" alt="logo">
-        </a> -->
-        <p>Elisabeth Guillemain</p>
+        <a href="/" class="navbar-wagon-brand">
+          <img src="images/logo-Elisabeth-Guillemain.png" alt="logo">
+        </a>
 
         <!-- Right Navigation -->
         <div class="navbar-wagon-right hidden-xs hidden-sm">
@@ -38,10 +37,10 @@
         <div class="dropdown">
           <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
           <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-            <li><a href="/">Accueil</a></li>
-            <li><a href="peintures">Peintures</a></li>
-            <li><a href="#">Expos</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><%= link_to "Accueil", "/" %></li>
+            <li><%= link_to "Mes peintures", "peintures" %></li>
+            <li><%= link_to "Mes expos", "#" %></li>
+            <li><%= link_to "Contact", "contact" %></li>
           </ul>
         </div>
       </div>
