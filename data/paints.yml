@@ -1,0 +1,19 @@
+- name: "Gitano"
+  dimensions: "80x80"
+  type: "Acrylique sur toile"
+  img: "/images/Tableaux_HD/Tableau-Gitan_Elisabeth-Guillemain.png"
+
+- name: "Bouquets d'anémones"
+  dimensions: "50x65"
+  type: "Acrylique sur toile"
+  img: "/images/Tableaux_HD/Tableau-Bouquets-fleurs_Elisabeth-Guillemain.png"
+
+- name: "Le Gitan"
+  dimensions: "400x600"
+  type: "Acrylique sur toile"
+  img: "/images/Tableaux_HD/Tableau-Atelier-d-artiste_Elisabeth-Guillemain.png"
+
+- name: "Le Gitan"
+  dimensions: "400x600"
+  type: "Acrylique sur toile"
+  img: "/images/Tableaux_HD/Tableau-Gitan_Elisabeth-Guillemain.png"
