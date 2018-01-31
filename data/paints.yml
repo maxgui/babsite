@@ -2,6 +2,7 @@
   dimensions: "80x80"
   type: "Acrylique sur toile"
   img: "/images/Tableaux_HD/Tableau-Gitan_Elisabeth-Guillemain.png"
+  img_min:
   modal_id: "GitanoModal"
   modal_label: "GitanoModalLabel"
 
@@ -9,6 +10,7 @@
   dimensions: "50x65"
   type: "Acrylique sur toile"
   img: "/images/Tableaux_HD/Tableau-Bouquets-fleurs_Elisabeth-Guillemain.png"
+  img_min:
   modal_id: "BouquetModal"
   modal_label: "BouquetModalLabel"
 
@@ -16,6 +18,7 @@
   dimensions: "100x100"
   type: "Acrylique sur toile"
   img: "/images/Tableaux_HD/Tableau-Falaises-Etretat_Elisabeth-Guillemain.png"
+  img_min:
   modal_id: "EtretatModal"
   modal_label: "EtretatModalLabel"
 
@@ -23,6 +26,7 @@
   dimensions: "100x100"
   type: "Acrylique sur toile"
   img: "/images/Tableaux_HD/Tableau-Grand-palais-Paris_Elisabeth-Guillemain.png"
+  img_min:
   modal_id: "GrandPalaisModal"
   modal_label: "GrandPalaisModalLabel"
 
