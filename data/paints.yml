@@ -2,7 +2,7 @@
   dimensions: "80x80"
   type: "Acrylique sur toile"
   img: "/images/Tableaux_HD/Tableau-Gitan_Elisabeth-Guillemain.png"
-  img_min:
+  img_min: "/images/Tableau_min/Tableau-Gitan_Elisabeth-Guillemain-min.png"
   modal_id: "GitanoModal"
   modal_label: "GitanoModalLabel"
 
