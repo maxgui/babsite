@@ -10,7 +10,7 @@
   dimensions: "50x65"
   type: "Acrylique sur toile"
   img: "/images/Tableaux_HD/Tableau-Bouquets-fleurs_Elisabeth-Guillemain.png"
-  img_min:
+  img_min: "/images/Tableau_min/Tableau-Bouquets-fleurs_Elisabeth-Guillemain-min.png"
   modal_id: "BouquetModal"
   modal_label: "BouquetModalLabel"
 
