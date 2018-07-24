@@ -25,10 +25,3 @@ activate :directory_indexes
 activate :minify_html
 
 # set :index_file, "index.html"
-
-activate :dato, live_reload: true
-
-# enable livereload on development
-configure :development do
-  activate :livereload
-end
